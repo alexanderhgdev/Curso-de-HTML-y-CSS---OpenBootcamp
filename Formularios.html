@@ -11,17 +11,36 @@
         <!-- obtener nombre de usuario -->
        <div>
         <label for="nombreusuario">Nombre de usuario</label>
-        <input name="nombreusuario" id="nombreusuario" type="text">
+        <input name="nombreusuario" id="nombreusuario" type="text" required>
        </div>
+       <br>
        <div>
         <label for="Comentarios">Comentarios</label>
         <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
        </div>
+       <br>
        <div>
         <label for="contraseña">Contraseña</label>
-        <input name="nombreusuario" id="contraseña" type="text">
+        <input name="nombreusuario" id="contraseña" type="password">
        </div>
-       <button>Enviar</button>
+       <br>
+       <div>
+        <label for="contraseña">Email</label>
+        <input name="email" id="email" type="email">
+       </div>
+       <br>
+       <div>
+        <label for="contraseña">Fecha de nacimiento</label>
+        <input name="edad" id="edad" type="date">
+       </div>
+       <br>
+       <div>
+        <label for="contraseña">¿Cual es tu edad?</label>
+        <input name="number" id="number" type="number" min="0" max="150">
+       </div>
+       <br>
+       <button type="reset">Reset</button>
+       <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
