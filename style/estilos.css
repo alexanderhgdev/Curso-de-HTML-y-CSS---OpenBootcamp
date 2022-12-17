@@ -1,0 +1,22 @@
+h1 {
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+}
+/*Estoy probando colores*/
+p {
+    color: gray;
+    font-size: small;
+}
+.encabezado {
+    color:black;
+    font-size: larger;
+}
+.p-noticia {
+    color: gray;
+    font-size: medium;
+}
+.s-noticia {
+    color: gray;
+    font-size: medium;
+}
