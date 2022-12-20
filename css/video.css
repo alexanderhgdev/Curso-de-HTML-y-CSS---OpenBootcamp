@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;500;700 & display=swap');
+/* https://codepen.io/enxaneta/full/adLPwv/ */
+html {
+    font-family:'Open Sans', sans-serif; 
+}
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+.video  {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+.header {
+    height: 100vh;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

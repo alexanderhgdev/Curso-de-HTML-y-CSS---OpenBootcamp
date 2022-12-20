@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;500;700 & display=swap');
+
+html {
+    font-family:'Open Sans', sans-serif;
+}
+
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+.static {
+    position: static;
+
+}
+.relative {
+    position: relative;
+    left: 40px;
+    margin-left: 10px;
+}
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: coral;
+    
+}
+/* Posicionamiento  absolute en relacion a su elemento padre (boby)*/
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+
+}
+.relative-container {
+    width: 300px;
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.sticky {
+    position: sticky;
+    background-color: brown;
+    color: wheat;
+    top: 0px ;
+}

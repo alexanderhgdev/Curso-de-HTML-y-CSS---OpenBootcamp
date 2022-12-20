@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;500;700 & display=swap');
+/* https://codepen.io/enxaneta/full/adLPwv/ */
+html {
+    font-family:'Open Sans', sans-serif;
+
+}
+.contenedor-hidden {
+    background-color: coral;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow:hidden;
+}
+.contenedor-scroll {
+    background-color: coral;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow:scroll;
+}
+.contenedor-visible {
+    background-color: coral;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow:visible;
+}

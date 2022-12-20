@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;500;700 & display=swap');
+/* https://codepen.io/enxaneta/full/adLPwv/ */
+html {
+    font-family:'Open Sans', sans-serif; 
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagen-principal {
+    width: 100vw;
+    opacity: 50%;
+    
+
+}
+.imagen-principal:hover {
+    opacity: 100%;
+
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imagen-galeria {
+    width: 150px;
+}
+.imagen-galeria:hover {
+    opacity: 40%;
+    cursor: pointer;
+}
